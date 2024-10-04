@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  max-width: 1270px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding-inline: 2rem;
+  font-size: 1.125rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}

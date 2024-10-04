@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+  width: 100%;
+}
+
+.hero__img {
+  display: block;
+  border-radius: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.hero__content {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  border-radius: 25px;
+  border: 1px rgba(255, 255, 255, 0.3) solid;
+  top: 85%;
+  left: 50%;
+  padding: 2rem;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 95%;
+  max-height: 191px;
+}
+
+.hero__content > h2 {
+  margin-bottom: 2rem;
+}
