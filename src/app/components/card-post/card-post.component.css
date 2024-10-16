@@ -1,0 +1,50 @@
+.card__img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.card__title {
+  font-size: 1.125rem;
+  margin-top: 2rem;
+}
+
+.card__description {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card__author {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.75rem;
+}
+
+.card__author span {
+  margin-inline: 0.75rem;
+}
+
+.card__author-avatar {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.card__author-name {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.card__date {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
