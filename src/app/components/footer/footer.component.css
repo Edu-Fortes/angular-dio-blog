@@ -1,0 +1,34 @@
+.footer {
+  border-top: 3px solid #ece0e0;
+  border-radius: 2px;
+  background-color: #fafafa;
+  padding: 3rem 1rem 0.5rem;
+}
+
+.footer__credits {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 6rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.footer__credits div {
+  margin: 0;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__copyright svg {
+  margin: 0;
+}
+
+.footer__copyright span {
+  margin: 0;
+  font-size: 0.8125rem;
+}
