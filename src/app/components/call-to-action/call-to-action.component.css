@@ -15,3 +15,29 @@
 .action p {
   margin-bottom: 2rem;
 }
+
+.action__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.action__form input {
+  padding: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  width: 40%;
+  text-align: center;
+}
+
+.action__form button {
+  padding: 1rem;
+  background-color: #e9ecfb;
+  color: #3d5a99;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
