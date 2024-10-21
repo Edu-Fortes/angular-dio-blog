@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
@@ -8,4 +9,10 @@ import { RouterLink } from '@angular/router';
   templateUrl: './content.component.html',
   styleUrl: './content.component.css',
 })
-export class ContentComponent {}
+export class ContentComponent {
+  constructor(private location: Location) {}
+
+  back(): void {
+    this.location.back();
+  }
+}
