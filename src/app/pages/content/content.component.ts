@@ -1,6 +1,6 @@
 import { Location } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-content',
@@ -10,9 +10,15 @@ import { RouterLink } from '@angular/router';
   styleUrl: './content.component.css',
 })
 export class ContentComponent {
-  constructor(private location: Location) {}
+  constructor(private location: Location, private route: ActivatedRoute) {}
 
   back(): void {
     this.location.back();
+  }
+
+  ngOnInit(): void {
+    this.route.paramMap.subscribe((params) => {
+      console.log(params.get('id'));
+    });
   }
 }

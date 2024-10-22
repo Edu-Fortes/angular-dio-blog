@@ -4,11 +4,13 @@
     alt="Cover photo of hero post"
     class="hero__img"
   />
-  <div class="hero__content">
-    <h2>{{ cardTitle }}</h2>
-    <!-- PARAGRAFO COM NO MÁXIMO 376 CARACTERES -->
-    <p>
-      {{ cardDescription }}
-    </p>
-  </div>
+  <a [routerLink]="['posts', id]">
+    <div class="hero__content">
+      <h2>{{ cardTitle }}</h2>
+      <!-- PARAGRAFO COM NO MÁXIMO 376 CARACTERES -->
+      <p>
+        {{ cardDescription }}
+      </p>
+    </div>
+  </a>
 </section>
