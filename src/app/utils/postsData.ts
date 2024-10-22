@@ -10,6 +10,8 @@ const postsData = [
     description:
       'Explore os benefícios e desafios do trabalho remoto na área de desenvolvimento e descubra dicas para maximizar a produtividade no seu home office.',
     author: 'Jane Doe',
+    avatar:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fHww',
     date: '21 de Outubro de 2024',
     content: [
       'O aumento do trabalho remoto transformou a forma como os desenvolvedores operam, oferecendo flexibilidade e oportunidades que ambientes de escritório tradicionais podem não fornecer. Trabalhar de casa permite um ambiente de trabalho personalizado, adaptado às preferências individuais, promovendo criatividade e foco. À medida que mais empresas abraçam equipes de desenvolvimento remotas, é essencial entender tanto os benefícios quanto os desafios que acompanham essa mudança.',
@@ -29,6 +31,8 @@ const postsData = [
     description:
       'Descubra a versatilidade e a força do Angular, um poderoso framework para construir aplicações web dinâmicas. Este post explora suas principais características, benefícios e por que é o favorito entre os desenvolvedores.',
     author: 'Eduardo Fortes',
+    avatar:
+      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww',
     date: '21 de outubro de 2024',
     content: [
       'O Angular é um robusto framework de aplicação web front-end desenvolvido pelo Google, projetado para tornar o processo de desenvolvimento mais fácil e eficiente. Com sua arquitetura baseada em componentes, o Angular permite que os desenvolvedores criem componentes de UI reutilizáveis, possibilitando uma abordagem modular ao design de aplicações. Isso não apenas simplifica o processo de codificação, mas também melhora a manutenibilidade e a escalabilidade, tornando-o uma escolha ideal para aplicações de grande escala.',
@@ -47,6 +51,8 @@ const postsData = [
     description:
       'Dicas para montar um espaço de trabalho ideal para desenvolvedores.',
     author: 'Pedro Almeida',
+    avatar:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fHww',
     date: '10 de Outubro de 2024',
     content: [
       'Um ambiente de desenvolvimento adequado é fundamental para maximizar a produtividade. A escolha do espaço, seja em casa ou em um escritório, deve priorizar o conforto e a ergonomia. Investir em uma boa cadeira e mesa ajustável pode fazer uma grande diferença.',
@@ -65,6 +71,8 @@ const postsData = [
     description:
       'Explore as últimas tendências na indústria automotiva e o futuro dos carros.',
     author: 'Renata Souza',
+    avatar:
+      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXZhdGFyfGVufDB8fDB8fHww',
     date: '12 de Outubro de 2024',
     content: [
       'A indústria automotiva está passando por uma revolução, impulsionada por inovações tecnológicas e a crescente demanda por sustentabilidade. Carros elétricos estão se tornando cada vez mais populares, com marcas tradicionais e novas startups investindo em veículos com zero emissões.',
@@ -82,7 +90,9 @@ const postsData = [
     title: 'Cuidando do Seu Melhor Amigo: Dicas para Proprietários de Cães',
     description:
       'Aprenda a cuidar melhor do seu cão com essas dicas essenciais.',
-    author: 'Julia Martins',
+    author: 'Renata Souza',
+    avatar:
+      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXZhdGFyfGVufDB8fDB8fHww',
     date: '14 de Outubro de 2024',
     content: [
       'Ter um cão é uma experiência gratificante, mas também traz responsabilidades. A primeira dica para os proprietários é garantir uma alimentação adequada. Escolher uma ração de qualidade e respeitar a quantidade recomendada é essencial para a saúde do seu amigo.',
@@ -102,6 +112,8 @@ const postsData = [
     description:
       'Uma análise das tendências emergentes em inteligência artificial e seu impacto na sociedade.',
     author: 'Lucas Gomes',
+    avatar:
+      'https://images.unsplash.com/photo-1654110455429-cf322b40a906?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODl8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
     date: '16 de Outubro de 2024',
     content: [
       'A inteligência artificial (IA) está moldando o futuro de diversas indústrias, desde saúde até finanças. Uma das áreas que mais se beneficia da IA é a análise de dados, onde algoritmos são capazes de processar informações em uma escala impossível para os humanos.',
