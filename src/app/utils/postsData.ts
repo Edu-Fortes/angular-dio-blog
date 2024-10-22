@@ -28,7 +28,7 @@ const postsData = [
     slug: 'desbloquando-o-poder-do-angular-um-guia-abrangente',
     description:
       'Descubra a versatilidade e a força do Angular, um poderoso framework para construir aplicações web dinâmicas. Este post explora suas principais características, benefícios e por que é o favorito entre os desenvolvedores.',
-    author: 'Eduardo Morikuni Fortes',
+    author: 'Eduardo Fortes',
     date: '21 de outubro de 2024',
     content: [
       'O Angular é um robusto framework de aplicação web front-end desenvolvido pelo Google, projetado para tornar o processo de desenvolvimento mais fácil e eficiente. Com sua arquitetura baseada em componentes, o Angular permite que os desenvolvedores criem componentes de UI reutilizáveis, possibilitando uma abordagem modular ao design de aplicações. Isso não apenas simplifica o processo de codificação, mas também melhora a manutenibilidade e a escalabilidade, tornando-o uma escolha ideal para aplicações de grande escala.',
