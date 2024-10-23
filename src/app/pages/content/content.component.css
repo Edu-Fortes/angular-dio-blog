@@ -51,6 +51,6 @@
   margin: 0;
   border-radius: 9999px;
   width: 100px;
-  height: auto;
-  object-fit: contain;
+  height: 100px;
+  object-fit: cover;
 }
