@@ -52,7 +52,7 @@ const postsData = [
       'Dicas para montar um espaço de trabalho ideal para desenvolvedores.',
     author: 'Pedro Almeida',
     avatar:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fHww',
+      'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww',
     date: '10 de Outubro de 2024',
     content: [
       'Um ambiente de desenvolvimento adequado é fundamental para maximizar a produtividade. A escolha do espaço, seja em casa ou em um escritório, deve priorizar o conforto e a ergonomia. Investir em uma boa cadeira e mesa ajustável pode fazer uma grande diferença.',
