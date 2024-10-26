@@ -1,5 +1,5 @@
 <nav class="navbar">
-  <a href="#" aria-label="Home">
+  <a href="{{ menuList[0].href }}" aria-label="Home">
     <svg
       width="165"
       height="48"
@@ -65,17 +65,10 @@
     </svg>
   </a>
   <ul class="navbar__list">
+    @for (item of menuList; track item.id){
     <li>
-      <a href="#">Home</a>
+      <a href="{{ item.href }}">{{ item.text }}</a>
     </li>
-    <li>
-      <a href="#">Sobre</a>
-    </li>
-    <li>
-      <a href="#">Posts</a>
-    </li>
-    <li>
-      <a href="#">Contato</a>
-    </li>
+    }
   </ul>
 </nav>
