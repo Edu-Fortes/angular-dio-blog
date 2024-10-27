@@ -54,3 +54,17 @@
   height: 100px;
   object-fit: cover;
 }
+
+.content__button {
+  display: flex;
+  margin-bottom: 3rem;
+  padding-block: 0.75rem;
+  padding-inline: 2rem;
+  background-color: #e9ecfb;
+  color: #3d5a99;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
