@@ -1,27 +1,66 @@
-# AngularBlog
+# Angular DIO Blog
+
+This project is a simple portfolio blog project created as a practical application of the knowledge gained from the Angular course at [DIO platform](https://www.dio.me/). It showcases some features and functionalities developed throughout the course, demonstrating skills in Angular components, routing, directives, component lifeCycle and more. The project serves as both a learning tool and a portfolio piece to highlight my growth as a developer.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Design:** Followed the design layout made by [Jordan Hughes on Dribbble](https://dribbble.com/jordanhughes)
 
-## Code scaffolding
+- **Dynamic Routing:** Utilizes Angular Router for seamless navigation between different blog posts.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Component-Based Architecture:** Each section of the blog is built using reusable components for better maintainability.
 
-## Build
+- **Data Fetching:** Fetches blog post data from a TypeScript file within the project for easy management and modification.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Styling:** Style was made using vanilla CSS.
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular
+- TypeScript
+- Vanilla CSS
 
-## Running end-to-end tests
+## Visualizing the Project
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To visualize the blog project, follow these steps:
 
-## Further help
+1. **Clone the Repository:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+git clone https://github.com/Edu-Fortes/angular-dio-blog.git
+cd angular-dio-blog
+```
+
+2. **Install Dependencies:** _Make sure you have Node.js installed._
+
+Run:
+
+```bash
+npm install
+```
+
+3. **Modify Data:** Open the TypeScript file located in the folder `src/app/utils/postsData.ts` to view or modify the blog post data. You can add, edit, or remove posts as needed.
+
+4. **Run the Project:** Start the development server with:
+
+```bash
+ng serve
+```
+
+5. **View in Browser:** Open your browser and go to `http://localhost:4200` to see the blog in action. You can navigate through the posts and see any changes made in the data file.
+
+## To do
+
+- **Responsive Design:** The blog is not yet optimized for both desktop and mobile devices.
+
+- **Form Handling:** Include form handling for user subscription and submissions with validation.
+
+- **Dark Mode:** Option to toggle between light and dark themes for enhanced user experience.
+
+## Contact Information
+
+If you have any questions, feedback, or would like to collaborate, feel free to reach out to me on GitHub:
+
+- **GitHub**: [Edu-Fortes](https://github.com/Edu-Fortes)
