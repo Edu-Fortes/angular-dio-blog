@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { PostsListComponent } from '../../components/posts-list/posts-list.component';
+import postsData from '../../utils/postsData';
 
 @Component({
   selector: 'app-posts',
@@ -8,4 +9,6 @@ import { PostsListComponent } from '../../components/posts-list/posts-list.compo
   templateUrl: './posts.component.html',
   styleUrl: './posts.component.css',
 })
-export class PostsComponent {}
+export class PostsComponent {
+  posts = postsData[0];
+}

@@ -2,7 +2,7 @@
   <ul class="post-list">
     @for (post of posts; track post.id){
     <div class="container">
-      <a href="">
+      <a [routerLink]="[post.id]">
         <li class="post-list__item">
           <h2>{{ post.title }}</h2>
           <p class="post-list__description">{{ post.description }}</p>
